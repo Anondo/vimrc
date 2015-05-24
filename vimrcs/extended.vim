@@ -34,10 +34,11 @@ set guioptions-=L
 " Colorscheme
 if has("gui_running")
     set background=dark
-    colorscheme peaksea
+    set gfn=Source\ Code\ Pro:h20,Menlo:h20
+    colorscheme ron
 else
-    colorscheme desert
-    let g:colors_name="desert"
+    colorscheme ron
+    let g:colors_name="ron"
 endif
 
 
