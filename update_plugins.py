@@ -24,6 +24,7 @@ nerdcommenter https://github.com/scrooloose/nerdcommenter
 nerdtree https://github.com/scrooloose/nerdtree
 nginx.vim https://github.com/vim-scripts/nginx.vim
 open_file_under_cursor.vim https://github.com/amix/open_file_under_cursor.vim
+peaksea https://github.com/vim-scripts/peaksea
 php.vim https://github.com/StanAngeloff/php.vim
 python-mode https://github.com/klen/python-mode
 rainbow_parentheses.vim https://github.com/kien/rainbow_parentheses.vim
