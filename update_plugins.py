@@ -29,7 +29,6 @@ php.vim https://github.com/StanAngeloff/php.vim
 python-mode https://github.com/klen/python-mode
 rainbow_parentheses.vim https://github.com/kien/rainbow_parentheses.vim
 rust.vim https://github.com/rust-lang/rust.vim
-showmarks https://github.com/vim-scripts/ShowMarks
 snipmate-snippets https://github.com/scrooloose/snipmate-snippets
 syntastic https://github.com/scrooloose/syntastic
 taglist.vim https://github.com/vim-scripts/taglist.vim
