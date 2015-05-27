@@ -34,7 +34,7 @@ set guioptions-=L
 " Colorscheme
 if has("gui_running")
     set background=dark
-    set gfn=Source\ Code\ Pro:h20,Menlo:h20
+    set gfn=Source\ Code\ Pro:h24,Menlo:h24
     colorscheme ron
 else
     colorscheme ron
