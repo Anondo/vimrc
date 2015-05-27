@@ -36,9 +36,11 @@ if has("gui_running")
     set background=dark
     set gfn=Source\ Code\ Pro:h24,Menlo:h24
     colorscheme ron
+    set gfn=Source\ Code\ Pro:h22,Menlo:h22
+    colorscheme peaksea
 else
-    colorscheme ron
-    let g:colors_name="ron"
+    colorscheme peaksea
+    let g:colors_name="peaksea"
 endif
 
 
