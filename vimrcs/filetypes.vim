@@ -60,7 +60,6 @@ function! CoffeeScriptFold()
 endfunction
 au FileType coffee call CoffeeScriptFold()
 
-
 """"""""""""""""""""""""""""""""""""
 " => Clojure <3
 """"""""""""""""""""""""""""""""""""

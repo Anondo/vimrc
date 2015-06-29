@@ -82,7 +82,7 @@ if has("win16") || has("win32")
 else
     set wildignore+=.git\*,.hg\*,.svn\*
 endif
-
+set macmeta
 "Always show current position
 set ruler
 

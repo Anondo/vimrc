@@ -40,10 +40,10 @@ vim-addon-mw-utils https://github.com/MarcWeber/vim-addon-mw-utils
 vim-airline https://github.com/bling/vim-airline
 vim-blade https://github.com/xsbeats/vim-blade
 vim-bundle-mako https://github.com/sophacles/vim-bundle-mako
-vim-clojure-conceal https://github.com/fwolanski/vim-clojure-conceal
 vim-clojure-highlight https://github.com/guns/vim-clojure-highlight
 vim-clojure-static https://github.com/guns/vim-clojure-static
 vim-coffee-script https://github.com/kchmck/vim-coffee-script
+vim-coloresque https://github.com/gorodinskiy/vim-coloresque
 vim-colors-solarized https://github.com/altercation/vim-colors-solarized
 vim-easymotion https://github.com/Lokaltog/vim-easymotion
 vim-expand-region https://github.com/terryma/vim-expand-region
