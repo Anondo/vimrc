@@ -61,6 +61,7 @@ vim-multiple-cursors https://github.com/terryma/vim-multiple-cursors
 vim-pyte https://github.com/therubymug/vim-pyte
 vim-repeat https://github.com/tpope/vim-repeat
 vim-sexp https://github.com/guns/vim-sexp
+vim-sexp-mappings-for-regular-people https://github.com/tpope/vim-sexp-mappings-for-regular-people
 vim-snipmate https://github.com/garbas/vim-snipmate
 vim-snippets https://github.com/honza/vim-snippets
 vim-speeddating https://github.com/tpope/vim-speeddating
