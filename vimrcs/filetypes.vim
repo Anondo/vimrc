@@ -30,25 +30,6 @@ let g:pymode_lint = 0
 " => JavaScript section
 """""""""""""""""""""""""""""""
 "au FileType javascript call JavaScriptFold()
-au FileType javascript setl fen
-au FileType javascript setl nocindent
-
-au FileType javascript imap <c-t> AJS.log();<esc>hi
-au FileType javascript imap <c-a> alert();<esc>hi
-
-au FileType javascript inoremap <buffer> $r return 
-au FileType javascript inoremap <buffer> $f //--- PH ----------------------------------------------<esc>FP2xi
-
-function! JavaScriptFold() 
-    setl foldmethod=syntax
-    setl foldlevelstart=1
-    syn region foldBraces start=/{/ end=/}/ transparent fold keepend extend
-
-    function! FoldText()
-        return substitute(getline(v:foldstart), '{.*', '{...}', '')
-    endfunction
-    setl foldtext=FoldText()
-endfunction
 
 
 """"""""""""""""""""""""""""""
@@ -89,3 +70,15 @@ let g:clojure_syntax_keywords = {
     \ 'clojureMacro': ["defproject", "defcustom"],
     \ 'clojureFunc': ["string/join", "string/replace"]
     \ }
+
+"""""""""""""""""""""""""""""""""""""""""""
+" => Golang
+" """""""""""""""""""""""""""""""""""""""""
+" format with goimports instead of gofmt
+let g:go_fmt_command = "goimports"
+
+au Filetype go nnoremap <leader>v :vsp <CR>:exe "GoDef" <CR>
+au Filetype go nnoremap <leader>s :sp <CR>:exe "GoDef"<CR>
+au Filetype go nnoremap <leader>t :tab split <CR>:exe "GoDef"<CR>
+
+au Filetype go nnoremap <leader>r :GoRun %<CR>

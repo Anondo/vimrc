@@ -8,14 +8,13 @@ from os import path
 requests.packages.urllib3.disable_warnings()
 
 #--- Globals ----------------------------------------------
-PLUGINS = """
+PLUGINS0 = """
 bufexplorer https://github.com/corntrace/bufexplorer
 ctrlp.vim https://github.com/kien/ctrlp.vim
-delimitmate https://github.com/Raimondi/delimitMate
+delimitMate https://github.com/Raimondi/delimitMate
 emmet-vim https://github.com/mattn/emmet-vim
 goyo.vim https://github.com/junegunn/goyo.vim
 gundo.vim https://github.com/sjl/gundo.vim
-jshint.vim https://github.com/wookiehangover/jshint.vim
 limelight.vim https://github.com/junegunn/limelight.vim
 matchit https://github.com/tmhedberg/matchit
 mayansmoke https://github.com/vim-scripts/mayansmoke
@@ -31,6 +30,7 @@ rainbow_parentheses.vim https://github.com/kien/rainbow_parentheses.vim
 rust.vim https://github.com/rust-lang/rust.vim
 snipmate-snippets https://github.com/scrooloose/snipmate-snippets
 syntastic https://github.com/scrooloose/syntastic
+tagbar https://github.com/majutsushi/tagbar
 taglist.vim https://github.com/vim-scripts/taglist.vim
 tlib https://github.com/vim-scripts/tlib
 typescript-vim https://github.com/leafgarland/typescript-vim
@@ -50,11 +50,15 @@ vim-expand-region https://github.com/terryma/vim-expand-region
 vim-eunuch https://github.com/tpope/vim-eunuch
 vim-fireplace https://github.com/tpope/vim-fireplace
 vim-fugitive https://github.com/tpope/vim-fugitive
+vim-go https://github.com/fatih/vim-go
 vim-gitgutter https://github.com/airblade/vim-gitgutter
 vim-hy https://github.com/hylang/vim-hy
+vim-indent-guides https://github.com/nathanaelkane/vim-indent-guides
 vim-indent-object https://github.com/michaeljsmith/vim-indent-object
 vim-javascript https://github.com/pangloss/vim-javascript
+vim-javascript-syntax https://github.com/jelera/vim-javascript-syntax
 vim-jsbeautify https://github.com/maksimr/vim-jsbeautify
+vim-jsx https://github.com/mxw/vim-jsx
 vim-less https://github.com/groenewege/vim-less
 vim-markdown https://github.com/tpope/vim-markdown
 vim-multiple-cursors https://github.com/terryma/vim-multiple-cursors
@@ -67,9 +71,12 @@ vim-snippets https://github.com/honza/vim-snippets
 vim-speeddating https://github.com/tpope/vim-speeddating
 vim-surround https://github.com/tpope/vim-surround
 vim-zenroom2 https://github.com/amix/vim-zenroom2
-yankring.vim https://github.com/vim-scripts/YankRing.vim
+YankRing.vim https://github.com/vim-scripts/YankRing.vim
 """.strip()
 
+PLUGINS = """
+YouCompleteMe https://github.com/Valloric/YouCompleteMe
+""".strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'
 
