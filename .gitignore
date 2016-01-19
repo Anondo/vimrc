@@ -3,3 +3,4 @@ temp_dirs/
 sources_non_forked/
 my_configs.vim
 *.pyc
+YouCompleteMe/

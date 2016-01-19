@@ -74,10 +74,6 @@ vim-zenroom2 https://github.com/amix/vim-zenroom2
 YankRing.vim https://github.com/vim-scripts/YankRing.vim
 """.strip()
 
-YCM = """
-YouCompleteMe https://github.com/Valloric/YouCompleteMe
-""".strip()
-
 GITHUB_ZIP = '%s/archive/master.zip'
 
 SOURCE_DIR = path.join( path.dirname(__file__), 'sources_non_forked' )
