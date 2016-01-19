@@ -8,7 +8,7 @@ from os import path
 requests.packages.urllib3.disable_warnings()
 
 #--- Globals ----------------------------------------------
-PLUGINS0 = """
+PLUGINS = """
 bufexplorer https://github.com/corntrace/bufexplorer
 ctrlp.vim https://github.com/kien/ctrlp.vim
 delimitMate https://github.com/Raimondi/delimitMate
@@ -74,7 +74,7 @@ vim-zenroom2 https://github.com/amix/vim-zenroom2
 YankRing.vim https://github.com/vim-scripts/YankRing.vim
 """.strip()
 
-PLUGINS = """
+YCM = """
 YouCompleteMe https://github.com/Valloric/YouCompleteMe
 """.strip()
 
