@@ -38,6 +38,7 @@ unite.vim https://github.com/Shougo/unite.vim
 vim-abolish https://github.com/tpope/vim-abolish
 vim-addon-mw-utils https://github.com/MarcWeber/vim-addon-mw-utils
 vim-airline https://github.com/bling/vim-airline
+vim-airline-themes htts://github.com/vim-airline/vim-airline-themes
 vim-blade https://github.com/xsbeats/vim-blade
 vim-bundle-mako https://github.com/sophacles/vim-bundle-mako
 vim-clojure-highlight https://github.com/guns/vim-clojure-highlight
