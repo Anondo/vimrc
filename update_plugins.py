@@ -13,6 +13,7 @@ bufexplorer https://github.com/corntrace/bufexplorer
 ctrlp.vim https://github.com/kien/ctrlp.vim
 delimitMate https://github.com/Raimondi/delimitMate
 emmet-vim https://github.com/mattn/emmet-vim
+go-explorer https://github.com/garyburd/go-explorer
 goyo.vim https://github.com/junegunn/goyo.vim
 gundo.vim https://github.com/sjl/gundo.vim
 limelight.vim https://github.com/junegunn/limelight.vim
@@ -35,10 +36,11 @@ taglist.vim https://github.com/vim-scripts/taglist.vim
 tlib https://github.com/vim-scripts/tlib
 typescript-vim https://github.com/leafgarland/typescript-vim
 unite.vim https://github.com/Shougo/unite.vim
+ultisnips https://github.com/sirver/ultisnips
 vim-abolish https://github.com/tpope/vim-abolish
 vim-addon-mw-utils https://github.com/MarcWeber/vim-addon-mw-utils
-vim-airline https://github.com/bling/vim-airline
-vim-airline-themes htts://github.com/vim-airline/vim-airline-themes
+vim-airline https://github.com/vim-airline/vim-airline
+vim-airline-themes https://github.com/vim-airline/vim-airline-themes
 vim-blade https://github.com/xsbeats/vim-blade
 vim-bundle-mako https://github.com/sophacles/vim-bundle-mako
 vim-clojure-highlight https://github.com/guns/vim-clojure-highlight
@@ -67,13 +69,10 @@ vim-pyte https://github.com/therubymug/vim-pyte
 vim-repeat https://github.com/tpope/vim-repeat
 vim-sexp https://github.com/guns/vim-sexp
 vim-sexp-mappings-for-regular-people https://github.com/tpope/vim-sexp-mappings-for-regular-people
-vim-snipmate https://github.com/garbas/vim-snipmate
-vim-snippets https://github.com/honza/vim-snippets
 vim-speeddating https://github.com/tpope/vim-speeddating
 vim-surround https://github.com/tpope/vim-surround
 tsuquyumi https://github.com/Quramy/tsuquyomi
 vim-zenroom2 https://github.com/amix/vim-zenroom2
-YankRing.vim https://github.com/vim-scripts/YankRing.vim
 """.strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'
