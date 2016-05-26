@@ -71,6 +71,7 @@ vim-snipmate https://github.com/garbas/vim-snipmate
 vim-snippets https://github.com/honza/vim-snippets
 vim-speeddating https://github.com/tpope/vim-speeddating
 vim-surround https://github.com/tpope/vim-surround
+tsuquyumi https://github.com/Quramy/tsuquyomi
 vim-zenroom2 https://github.com/amix/vim-zenroom2
 YankRing.vim https://github.com/vim-scripts/YankRing.vim
 """.strip()
