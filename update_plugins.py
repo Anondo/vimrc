@@ -9,6 +9,7 @@ requests.packages.urllib3.disable_warnings()
 
 #--- Globals ----------------------------------------------
 PLUGINS = """
+alchemist.vim https://github.com/slashmili/alchemist.vim
 bufexplorer https://github.com/corntrace/bufexplorer
 ctrlp.vim https://github.com/kien/ctrlp.vim
 delimitMate https://github.com/Raimondi/delimitMate
@@ -25,7 +26,6 @@ nerdtree https://github.com/scrooloose/nerdtree
 nginx.vim https://github.com/vim-scripts/nginx.vim
 open_file_under_cursor.vim https://github.com/amix/open_file_under_cursor.vim
 peaksea https://github.com/vim-scripts/peaksea
-php.vim https://github.com/StanAngeloff/php.vim
 python-mode https://github.com/klen/python-mode
 rainbow_parentheses.vim https://github.com/kien/rainbow_parentheses.vim
 rust.vim https://github.com/rust-lang/rust.vim
@@ -49,6 +49,7 @@ vim-coffee-script https://github.com/kchmck/vim-coffee-script
 vim-coloresque https://github.com/gorodinskiy/vim-coloresque
 vim-colors-solarized https://github.com/altercation/vim-colors-solarized
 vim-easymotion https://github.com/Lokaltog/vim-easymotion
+vim-elixir https://github.com/elixir-lang/vim-elixir
 vim-expand-region https://github.com/terryma/vim-expand-region
 vim-eunuch https://github.com/tpope/vim-eunuch
 vim-fireplace https://github.com/tpope/vim-fireplace
@@ -71,7 +72,6 @@ vim-sexp https://github.com/guns/vim-sexp
 vim-sexp-mappings-for-regular-people https://github.com/tpope/vim-sexp-mappings-for-regular-people
 vim-speeddating https://github.com/tpope/vim-speeddating
 vim-surround https://github.com/tpope/vim-surround
-tsuquyumi https://github.com/Quramy/tsuquyomi
 vim-zenroom2 https://github.com/amix/vim-zenroom2
 """.strip()
 
@@ -114,6 +114,6 @@ if __name__ == '__main__':
             name, github_url = line.split(' ')
             zip_path = GITHUB_ZIP % github_url
             download_extract_replace(name, zip_path,
-            temp_directory, SOURCE_DIR)
+                                     temp_directory, SOURCE_DIR)
     finally:
         shutil.rmtree(temp_directory)
